@@ -1,0 +1,47 @@
+.default {
+  border: 2px solid;
+  border-radius: 1px;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  color: rgb(216, 229, 241);
+  transition: 0.5s;
+  font: 300 1em "Fira Sans", sans-serif;
+  background: hsla(228, 41%, 61%, 0.144);
+  animation: fadeIn 0.5s ease-in-out;
+  width: 96px;
+  height: 42px;
+  font-size: 18px;
+}
+
+.default:hover,
+.default:focus {
+  color: rgb(216, 229, 241);
+  background: #00b4db;
+  background: -webkit-linear-gradient(to bottom, #0083b0, #00b4db);
+  background: linear-gradient(to bottom, #0083b0, #00b4db);
+  box-shadow: 0 0.5em 0.7em -0.25em #00b3db;
+  transform: translateY(-0.3em);
+}
+
+.default:active {
+  box-shadow: 0 1em 1.5em -0.5em #ff00ea;
+  background: #af2e9ed8;
+}
+
+.default:disabled {
+  color: rgba(192, 26, 26, 0.678);
+  box-shadow: 0 0.5em 0.7em -0.25em #ff0000a6;
+  background: #ffffffc5;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

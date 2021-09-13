@@ -1,0 +1,38 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(41, 45, 62);
+  height: 100vh;
+}
+
+.field {
+  display: grid;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.info {
+  font-size: 24px;
+  color: rgb(219, 143, 187);
+  padding: 15px;
+}
+
+@media screen and (max-width: 510px) {
+  .game-container {
+    display: none;
+    position: relative;
+  }
+  body::before {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    content: "Well, i guess you're too small";
+    font-size: 18px;
+  }
+}
