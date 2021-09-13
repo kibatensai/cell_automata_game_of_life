@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cell_automata_game_of_life/static/css/main.4c3aada9.chunk.css",
+    "main.js": "/cell_automata_game_of_life/static/js/main.db5b52c0.chunk.js",
+    "main.js.map": "/cell_automata_game_of_life/static/js/main.db5b52c0.chunk.js.map",
+    "runtime-main.js": "/cell_automata_game_of_life/static/js/runtime-main.5bc2a968.js",
+    "runtime-main.js.map": "/cell_automata_game_of_life/static/js/runtime-main.5bc2a968.js.map",
+    "static/js/2.8a1088ae.chunk.js": "/cell_automata_game_of_life/static/js/2.8a1088ae.chunk.js",
+    "static/js/2.8a1088ae.chunk.js.map": "/cell_automata_game_of_life/static/js/2.8a1088ae.chunk.js.map",
+    "index.html": "/cell_automata_game_of_life/index.html",
+    "static/css/main.4c3aada9.chunk.css.map": "/cell_automata_game_of_life/static/css/main.4c3aada9.chunk.css.map",
+    "static/js/2.8a1088ae.chunk.js.LICENSE.txt": "/cell_automata_game_of_life/static/js/2.8a1088ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bc2a968.js",
+    "static/js/2.8a1088ae.chunk.js",
+    "static/css/main.4c3aada9.chunk.css",
+    "static/js/main.db5b52c0.chunk.js"
+  ]
+}
